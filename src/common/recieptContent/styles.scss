@@ -1,0 +1,20 @@
+.reciept-done-payment {
+  & .MuiStack-root {
+    color: #6ec531;
+  }
+}
+.reciept-due-payment {
+  & .MuiStack-root {
+    color: #232773;
+  }
+}
+.container-border-padding {
+  border: 2px solid var(--grey-700);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.container-grey-border {
+  border: 2px solid var(--grey-700);
+  // padding: 1rem;
+  border-radius: 1rem;
+}

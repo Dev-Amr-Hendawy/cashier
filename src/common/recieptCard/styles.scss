@@ -1,0 +1,36 @@
+.reciept-card-container {
+  gap: 0.5rem;
+  position: relative;
+  padding: 1rem 1rem 0;
+  & .icon-label-value-container {
+    & .MuiTypography-root {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--grey-900);
+    }
+  }
+  & hr {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    width: 100%;
+    color: var(--grey-500);
+  }
+}
+.reciept-card-content {
+  &.MuiStack-root {
+    color: var(--grey-600);
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    .icon-label-value-container .MuiTypography-root {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--grey-600);
+    }
+    & .MuiTypography-root:last-child {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--grey-300);
+    }
+  }
+}

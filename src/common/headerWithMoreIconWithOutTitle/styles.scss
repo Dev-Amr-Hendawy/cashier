@@ -1,0 +1,13 @@
+.header-more-container {
+  &.MuiStack-root {
+    flex-direction: row;
+    height: 2rem;
+    padding: 1.5rem 1.5rem;
+    border-bottom: none;
+    justify-content: end;
+    align-items: center;
+    & svg {
+      cursor: pointer;
+    }
+  }
+}

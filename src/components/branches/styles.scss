@@ -1,0 +1,65 @@
+.user-details-container {
+  &.MuiStack-root {
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+  }
+  &.MuiTypography-root:first-child {
+    font-size: 1rem;
+  }
+}
+.detail-container {
+  &.MuiStack-root {
+    background-color: var(--background-color);
+  }
+}
+.details-cards-grid {
+  &.MuiGrid-container {
+    padding: 1rem;
+  }
+}
+.user-records-container {
+  &.MuiStack-root {
+    gap: 1.25rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+  }
+}
+.record-total-sales {
+  &.MuiButtonBase-root {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--secondary-main);
+    color: var(--background-color);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+  }
+}
+.filter-users-radio {
+  &.MuiFormControl-root {
+    & .MuiFormLabel-root {
+      color: #2d2d2d66;
+      margin-bottom: 1.5rem;
+      &.Mui-focused {
+        color: var(--secondary-main);
+      }
+    }
+  }
+}
+.branch-data-container {
+  &.MuiStack-root {
+    border: 2px solid #2d2d2d1a;
+    border-bottom: 0;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+.branch-main {
+  &.MuiBox-root {
+    .iconLabel-value-typography {
+      &.MuiTypography-root {
+        color: #232773;
+      }
+    }
+  }
+}

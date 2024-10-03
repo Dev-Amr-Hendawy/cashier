@@ -1,0 +1,19 @@
+.user-record-card {
+  &.MuiStack-root {
+    border: 1px solid rgba(45, 45, 45, 0.05);
+    box-shadow: 0px 1px 8px 0px rgba(209, 211, 212, 0.2);
+    gap: 1rem;
+    border-radius: 1rem;
+    & .MuiButtonBase-root {
+      border-radius: 0 0 1rem 1rem;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+.user-record-content {
+  &.MuiStack-root {
+    padding: 1rem 1rem 1rem 3rem;
+    gap: 1rem;
+  }
+}

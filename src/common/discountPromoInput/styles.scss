@@ -1,0 +1,9 @@
+.discount-promo-input {
+  &.MuiStack-root {
+    gap: 12px;
+    & .MuiButtonBase-root {
+      border: 0;
+      border-radius: 100px;
+    }
+  }
+}

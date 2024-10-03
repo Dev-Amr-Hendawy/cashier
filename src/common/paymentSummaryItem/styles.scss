@@ -1,0 +1,7 @@
+.border-radius {
+  &.MuiStack-root {
+    background-color: var(--grey-500);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}

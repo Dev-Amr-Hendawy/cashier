@@ -1,0 +1,18 @@
+.invoice-type-modal {
+  &.MuiStack-root {
+    gap: 1rem;
+    & .icon-label-value-container {
+      &.MuiStack-root {
+        padding: 1rem 0;
+      }
+    }
+  }
+}
+.tail-message-modal {
+  &.MuiStack-root {
+    gap: 1rem;
+    & .MuiInputBase-root {
+      border-radius: 20px;
+    }
+  }
+}

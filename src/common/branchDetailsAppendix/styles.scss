@@ -1,0 +1,16 @@
+.branch-details-appendix {
+  &.MuiStack-root {
+    height: 3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #2d2d2d1a;
+    border-radius: 0 0 1rem 1rem;
+    & .MuiTypography-root {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}

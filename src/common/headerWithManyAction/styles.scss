@@ -1,0 +1,16 @@
+.header-with-many-action.MuiStack-root {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 20% ;
+  border-bottom: 1px solid var(--grey-700);
+  justify-content: space-between;
+  align-items: center;
+  .MuiStack-root.item-header {
+     display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 25px;
+  //  width: auto;
+  }
+}

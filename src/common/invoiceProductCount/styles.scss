@@ -1,0 +1,7 @@
+.invoice-product-count {
+  &.MuiStack-root {
+    flex-direction: row;
+    gap: 1rem;
+    color: var(--grey-600);
+  }
+}

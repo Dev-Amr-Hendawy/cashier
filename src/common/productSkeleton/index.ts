@@ -1,0 +1,1 @@
+export * from "./productSkeleton.common";

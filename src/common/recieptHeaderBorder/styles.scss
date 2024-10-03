@@ -1,0 +1,10 @@
+.reciept-header {
+  &.MuiStack-root {
+    & .icon-label-value-container:first-child.MuiStack-root {
+      & .MuiTypography-root {
+        font-size: 20px;
+        color: var(--grey-900);
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.confirm-user-type-container {
+  &.MuiStack-root {
+    & .icon-label-value-container {
+      margin-bottom: 0.5rem;
+      & .MuiTypography-root {
+        font-size: 1.25rem;
+        color: var(--grey-600);
+      }
+    }
+  }
+}

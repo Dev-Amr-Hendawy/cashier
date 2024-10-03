@@ -1,0 +1,55 @@
+.select-input {
+  // margin-top: 2rem !important;
+  .MuiSelect-select{
+ padding: 10px  ;
+  }
+  & .MuiInputBase-root {
+    border-radius: 100px;
+    border: 2px solid var(--grey-100);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    background-color: var(--background-color);
+    &.Mui-error {
+      border: 2px solid #e83e00;
+    }
+    & .MuiInputBase-input {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 600;
+      // color: var(--);
+      color: var(--text-color);
+    }
+  }
+
+  & .MuiInputLabel-root {
+    // top: -3.25rem;
+    // right: -1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    // color: var(--grey-700);
+  }
+  & .MuiInputAdornment-root {
+    margin: 0 1rem;
+  }
+  & .MuiSvgIcon-root {
+    margin: 0 3rem;
+    &.MuiSelect-iconOpen {
+      color: var(--primary-main);
+    }
+  }
+  & fieldset {
+    border: 0;
+    padding: 0 1.5rem;
+  }
+  & .Mui-focused {
+    &.MuiInputBase-root {
+      border: 2px solid  var(--primary-main);
+    }
+    &.MuiInputLabel-root {
+      color:  var(--primary-main);
+    }
+    color:  var(--primary-main);
+  }
+}

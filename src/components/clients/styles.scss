@@ -1,0 +1,36 @@
+.clients-header {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    & .MuiButton-root {
+      font-size: 1rem;
+    }
+  }
+}
+
+.client-details-container {
+  &.MuiStack-root {
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: var(--grey-0);
+  }
+  &.MuiTypography-root:first-child {
+    font-size: 1rem;
+  }
+}
+.invoice-cards-container {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+.filter-payment-radio {
+  &.MuiFormControl-root {
+    & .MuiFormLabel-root {
+      color: var(--grey-400);
+      margin-bottom: 1.5rem;
+      &.Mui-focused {
+        color: var(--secondary-main);
+      }
+    }
+  }
+}

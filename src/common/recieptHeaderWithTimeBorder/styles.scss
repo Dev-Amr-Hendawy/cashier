@@ -1,0 +1,17 @@
+.reciept-header {
+  padding:0.5rem 1rem !important ;
+  &.MuiStack-root {
+    justify-content: center;
+    & .icon-label-value-container:first-child.MuiStack-root {
+      & .MuiTypography-root {
+        font-size: 20px;
+        color: var(--grey-900);
+      } & .time.MuiTypography-root {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+    }
+  }
+ 
+}

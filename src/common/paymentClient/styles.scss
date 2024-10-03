@@ -1,0 +1,14 @@
+.payment-client-container {
+  &.MuiStack-root {
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey-500);
+  }
+}
+.border-radius {
+  &.MuiStack-root {
+    border-radius: 1rem;
+  }
+}

@@ -1,0 +1,1 @@
+export * from "./settingsPrint.hoc";

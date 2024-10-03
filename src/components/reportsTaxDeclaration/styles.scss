@@ -1,0 +1,7 @@
+.declaration-tax-header {
+  &.MuiStack-root {
+    & .date-picker-container {
+      flex: 1;
+    }
+  }
+}

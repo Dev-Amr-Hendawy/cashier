@@ -1,0 +1,61 @@
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+@mixin media-breakpoint-up($size) {
+  @if map-has-key($breakpoints, $size) {
+    $breakpoint: map-get($breakpoints, $size);
+    @media (min-width: $breakpoint) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint #{$size} not found in the map.";
+  }
+}
+
+
+
+.bg-sign-up{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+ 
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 60%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+  
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:3rem;
+  min-height: 100vh;
+  position: relative; // Ensures content stays above the image
+  z-index: 1;         // Content is above the background image
+
+  // Responsive padding using media queries
+  padding:10rem  2rem 4rem;
+
+  @media (min-width: 1200px) { // Approximate xl breakpoint (can adjust as needed)
+    padding:10rem  2rem 3rem;
+  }
+}
+
+// clamp(30rem, 55vw, 64rem)

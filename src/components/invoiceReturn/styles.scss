@@ -1,0 +1,17 @@
+.return-invoice-page {
+  .calc-side {
+    background-color: var(--grey-700);
+  }
+}
+.return-invoice-info {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    & .MuiButtonBase-root {
+      border-radius: 1rem;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+  }
+}

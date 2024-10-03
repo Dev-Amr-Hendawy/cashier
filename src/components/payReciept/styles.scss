@@ -1,0 +1,20 @@
+.pay-reciept-info {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    & .MuiButtonBase-root {
+      border-radius: 1rem;
+      margin-top: 1rem;
+    }
+  }
+
+  // style payment summary item
+  // & .item {
+  //   &.MuiStack-root {
+  //     background-color: var(--grey-500);
+  //     border-radius: 1rem;
+  //     padding: 1rem;
+  //   }
+  // }
+}

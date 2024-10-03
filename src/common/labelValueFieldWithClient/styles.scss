@@ -1,0 +1,29 @@
+.Label-Value-Field-With-Client {
+  color: var(--grey-600);
+  background-color: var(--grey-500);
+  &.MuiStack-root {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & .MuiStack-root  {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    .client-details{
+      flex-direction: column;
+    }
+    & .MuiTypography-root {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 18px;
+    }
+  }
+}
+.has-border {
+  &.MuiStack-root {
+    border: 2px solid var(--grey-500);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}

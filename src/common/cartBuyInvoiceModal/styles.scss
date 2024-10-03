@@ -1,0 +1,8 @@
+.date-picker-container {
+  &.MuiStack-root {
+    width: 100%;
+    & .MuiFormControl-root {
+      width: 100%;
+    }
+  }
+}

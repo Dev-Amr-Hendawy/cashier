@@ -1,0 +1,29 @@
+.calculator-double-textfield {
+  & .MuiInputLabel-root {
+    color: var(--grey-400);
+    top: -3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    &.Mui-focused {
+      color: #6ec531;
+    }
+  }
+  & .MuiInputBase-root {
+    border: 2px solid #2d2d2d66;
+    border-radius: 1rem;
+  }
+  & .MuiInputBase-input {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  & .Mui-focused {
+    color: #232773;
+    // background-color: #fafafa;
+    border-color: var(--background-color);
+    border-radius: 1rem;
+  }
+
+  fieldset {
+    border: 0;
+  }
+}

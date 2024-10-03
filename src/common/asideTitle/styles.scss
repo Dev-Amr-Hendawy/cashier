@@ -1,0 +1,25 @@
+.aside-title-container {
+  &.MuiStack-root {
+    color: var(--grey-600);
+    background-color: var(--grey-200);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  // all children stacks
+  & .MuiStack-root {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.aside-show-all {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  &:hover {
+    scale: 1.1;
+  }
+}

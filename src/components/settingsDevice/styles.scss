@@ -1,0 +1,12 @@
+.device-settings-container {
+  &.MuiStack-root {
+    gap: 2.5rem;
+    width: 50vw;
+    & .drawer-link {
+      & .MuiTypography-root {
+        color: var(--grey-300);
+        font-weight: 600;
+      }
+    }
+  }
+}

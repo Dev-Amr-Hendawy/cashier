@@ -1,0 +1,16 @@
+.subscription-plan-card {
+  &.MuiStack-root {
+    position: relative;
+    border-radius: 2rem;
+    border: 1px solid;
+    border-color: #232773;
+    align-items: center;
+    justify-content: center;
+    width: 26vw;
+    min-height: 50vh;
+    & .MuiButton-root {
+      color: #fff;
+      background-color: #232773;
+    }
+  }
+}

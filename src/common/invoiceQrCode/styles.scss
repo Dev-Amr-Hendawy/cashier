@@ -1,0 +1,10 @@
+.qr-code-container {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    align-items: center;
+    & .MuiTypography-root {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}

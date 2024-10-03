@@ -1,0 +1,31 @@
+.icon-label-value-container {
+  color: var(--grey-600);
+  &.MuiStack-root {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  & .MuiStack-root {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    & .MuiTypography-root {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 18px;
+    }
+  }
+}
+.admin-label-text {
+  &.MuiStack-root {
+    & .MuiTypography-root {
+      color: #6ec531 !important;
+    }
+  }
+}
+.has-border {
+  &.MuiStack-root {
+    border: 2px solid var(--grey-500);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}

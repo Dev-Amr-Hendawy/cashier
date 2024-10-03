@@ -1,0 +1,15 @@
+.notification-item-container {
+  &.MuiStack-root {
+    gap: 10px;
+    & svg:nth-of-type(2) {
+      transition: all 0.3s ease-in-out;
+    }
+    & svg:nth-of-type(2):hover {
+      cursor: pointer;
+      transform: scale(1.08);
+    }
+    & .MuiTypography-body1 {
+      padding: 0 3rem;
+    }
+  }
+}

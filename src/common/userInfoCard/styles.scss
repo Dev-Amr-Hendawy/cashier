@@ -1,0 +1,14 @@
+.user-card-container {
+  border: 2px solid var(--grey-700);
+  border-radius: 1.25rem;
+  display: flex;
+  padding: 1.5rem;
+  gap: 2rem;
+  img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 4px solid var(--grey-700);
+  }
+}

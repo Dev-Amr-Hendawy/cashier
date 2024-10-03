@@ -1,0 +1,11 @@
+.round-icon-container {
+  &.MuiStack-root {
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #2d2d2d1a;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+  }
+}

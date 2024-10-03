@@ -1,0 +1,10 @@
+.contact-modal-container {
+  &.MuiStack-root {
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    & .MuiButton-root {
+      margin-top: 1.5rem;
+    }
+  }
+}

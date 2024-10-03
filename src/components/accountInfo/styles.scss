@@ -1,0 +1,36 @@
+.account-info-modal {
+  &.MuiStack-root {
+    gap: 1rem;
+    & .icon-label-value-container {
+      &.MuiStack-root {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+.account-info-container {
+  & .invoice-setting-item {
+    & .MuiTypography-root {
+      font-size: 1.25rem;
+      color: var(--grey-300);
+      font-weight: 600;
+    }
+  }
+  & .MuiTypography-body1 {
+    font-size: 1.25rem;
+    color: var(--grey-300);
+    font-weight: 600;
+  }
+}
+.account-image-modal {
+  &.MuiStack-root {
+    align-items: center;
+    gap: 40px;
+    & img {
+      height: 120px;
+      width: 120px;
+      border-radius: 100px;
+      border: 4px solid var(--grey-700);
+    }
+  }
+}

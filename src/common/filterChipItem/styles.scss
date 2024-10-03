@@ -1,0 +1,35 @@
+.filter-chip-item.MuiChip-root {
+  border: 2px solid;
+  cursor: pointer;
+  background: white;
+  padding: 0 1rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 500px;
+  min-width: 110px;
+  border-color: var(--grey-700);
+  background-color: var(--grey-0);
+  color: var(--grey-900);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  &:hover {
+    border-color: var(--primary-main);
+    color: var(--primary-main);
+    font-weight: 600;
+    background-color: var(--grey-100);
+  }
+  @media (min-width: 1440px) {
+    min-width: 140px;
+  }
+  @media (min-width: 1720px) {
+    min-width: 180px;
+  }
+  &.selected {
+    border-color: var(--primary-main);
+    color: var(--primary-main);
+    // font-weight: 600;
+  }
+  &.full-width {
+    width: 100%;
+  }
+}

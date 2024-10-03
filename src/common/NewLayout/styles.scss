@@ -1,0 +1,25 @@
+.new-layout {
+  // min-height: 100vh;
+  // height: fit-content;
+  min-height: calc(64rem);
+
+  &.MuiStack-root {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 5rem;
+
+    .card {
+      width: clamp(30rem, 55vw, 64rem);
+      min-height: min(60%, 30rem);
+      height: fit-content;
+      display: flex;
+      padding: 5.5rem 3rem;
+      justify-content: center;
+      border-radius: 12px;
+
+      box-shadow: 0px 0px 13.8px 0px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

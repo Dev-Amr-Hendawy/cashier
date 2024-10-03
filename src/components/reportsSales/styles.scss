@@ -1,0 +1,82 @@
+.reports-sales-settings {
+  &.MuiStack-root {
+    & .header-more-container {
+      background-color: var(--grey-200);
+    }
+  }
+}
+.reports-dates-container {
+  &.MuiStack-root {
+    width: 130%;
+    & .MuiStack-root {
+      flex: 1;
+      & .MuiFormControl-root {
+        width: 100%;
+      }
+    }
+  }
+}
+.reports-sales-settings-filters{
+  padding: 1rem 2rem;
+  gap: 2rem;
+.filters-branch{
+  width: clamp(2rem, 30vw, 15rem);
+  .MuiInputBase-root {
+    border-radius: 999rem;
+  }
+}.filters-type{
+
+  display: flex;
+  gap: 2rem;
+  align-content: center;
+}  
+
+}
+
+.sales-reports-slider {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    flex-direction: row;
+    padding: 1rem;
+  }.filter-chip-item.MuiChip-root {
+    height:60px ;
+    font-size:1.125rem
+  }
+}
+.start-report-modal {
+  &.MuiButton-root {
+    width: 100%;
+    background-color: var(--secondary-main);
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 0;
+  }
+}
+.start-report-results {
+  &.MuiStack-root {
+    padding: 0 1.5rem;
+    & .Mui-disabled {
+      &::placeholder {
+        color: black !important;
+        opacity: 1 !important;
+      }
+
+      // -webkit-text-fill-color: var(--grey-900) !important;
+      opacity: 1 !important;
+    }
+    & .MuiButtonBase-root {
+      justify-content: unset;
+      padding: 0 22px;
+    }
+    & .MuiOutlinedInput-input {
+      color: var(--grey-900) !important;
+      -webkit-text-fill-color: var(--grey-900) !important;
+    }
+    & .MuiOutlinedInput-notchedOutline {
+      border-color: var(--grey-100) !important;
+    }
+  }
+}
+.MuiOutlinedInput-root{
+  font-size: 1rem !important;
+}

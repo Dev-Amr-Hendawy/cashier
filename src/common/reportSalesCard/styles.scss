@@ -1,0 +1,13 @@
+.report-sales-card {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    flex: 1;  
+      background-color: var(--primary-primary50);
+      color: var(--primary-main);
+      border:none;
+    & .MuiChip-filled {
+      background-color: var(--primary-primary50);
+      color: var(--primary-main);
+    }
+  }
+}

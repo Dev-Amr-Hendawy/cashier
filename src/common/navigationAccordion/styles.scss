@@ -1,0 +1,43 @@
+.reports-navgation-accordion {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  &.MuiAccordion-root {
+    border: 0;
+    &.Mui-expanded {
+      margin: 0;
+    }
+  }
+  & .MuiAccordionDetails-root {
+    padding: 0;
+  }
+  // style when expanded accordion
+  & .reports-navigation--expanded {
+    background-color: #2a9d7c;
+    color: var(--grey-0);
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
+
+    & path {
+      stroke: var(--grey-0);
+    }
+  }
+  & .reports-navigation {
+    padding: 1rem 1.5rem;
+    & .MuiAccordionSummary-content {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin: 0;
+    }
+  }
+  & .reports-navigation--ar {
+    & .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+      transform: rotate(-90deg);
+    }
+  }
+  & .reports-navigation--en {
+    & .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+      transform: rotate(90deg);
+    }
+  }
+}

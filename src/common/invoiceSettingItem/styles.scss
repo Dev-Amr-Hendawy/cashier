@@ -1,0 +1,62 @@
+//  position: "relative",
+//   display: "flex",
+//   width: "100%",
+//   height: "auto",
+//   gap: "1rem",
+//   backgroundColor: theme.palette.grey[500],
+//   padding: `${theme.spacing(2.25)} ${theme.spacing(3)}`,
+//   borderRadius: theme.spacing(2),
+//   justifyContent: "flex-start",
+//   alignItems: "center",
+//   border: "1px solid",
+//   borderColor: active ? theme.palette.secondary.main : "transparent",
+//   cursor: "pointer",
+//   transition: "all .1s ease-in",
+//   "&:hover": {
+//     border: `1px solid ${theme.palette.secondary.main}`,
+//   },
+@use "../../variables";
+
+.invoice-setting-item {
+  &.MuiButtonBase-root {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    background-color: var(--grey-500);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    border-color: transparent;
+    &:hover {
+      border-color: var(--secondary-main);
+    }
+  }
+}
+.setting-arrow-value {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    & .MuiTypography-root {
+      max-width: 10rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--grey-600);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.invoice-item-image {
+  height: 72px;
+  width: 72px;
+  border-radius: 100px;
+  border: 4px solid #2d2d2d1a;
+}

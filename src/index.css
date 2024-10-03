@@ -1,0 +1,183 @@
+@font-face {
+  font-family: IBM;
+  src: url("./assets/fonts/IBMPlexSansArabic-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: IBM;
+  src: url("./assets/fonts/IBMPlexSansArabic-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: IBM;
+  src: url("./assets/fonts/IBMPlexSansArabic-Bold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+:root {
+  font-family: "Cairo", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  --text-color: black;
+  --background-color: #ffffff;
+  --background-color-secondary: #f9f9f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /* global variables */
+  --grey-0: #ffffff;
+  --grey-100: #2d2d2d33;
+  --grey-200: #2d2d2d0d;
+  --grey-300: #2d2d2dcc;
+  --grey-400: #2d2d2d66;
+  --grey-500: #2d2d2d0d;
+  --grey-600: #2d2d2d99;
+  --grey-700: #2d2d2d1a;
+  --grey-800: #2d2d2d9c;
+  --grey-900: #2d2d2d;
+  --primary-lighter: #d0ecfe;
+  --primary-light: #73bafb;
+  --primary-main: #232773;
+  --primary-dark: #0c44ae;
+  --primary-darker: #042174;
+  --primary-contrastText: #ffffff;
+  --primary-primary50:#EBECF9;
+  --secondary-lighter: #efd6ff;
+  --secondary-light: #c684ff;
+  --secondary-main: #6ec531;
+  --secondary-dark: #2e6d01;
+  --secondary-darker: #2A9D7C;
+  --secondary-contrastText: #ffffff;
+  --info-lighter: #cafdf5;
+  --info-light: #61f3f3;
+  --info-main: #00b8d9;
+  --info-dark: #006c9c;
+  --info-darker: #003768;
+  --info-contrastText: #ffffff;
+  --success-success300: #94D196; 
+  --warning-warning300: #FFD966;
+  --error-error300:#FF6666;
+}
+:root.dark-mode {
+  --background-color: #404040 !important;
+  --background-color-secondary: #4a4a4a !important;
+  --text-color: white;
+  /* color variables */
+  --grey-0: #2d2d2d;
+  --grey-100: #2d2d2d9c;
+  --grey-200: #2d2d2d;
+  --grey-300: #fff;
+  --grey-400: #d9d9d9;
+  --grey-500: #2d2d2d66;
+  --grey-600: #f4f4f4;
+  /* --grey-700: #2d2d2d0d; */
+  --grey-700: #e0e0e07d;
+  --grey-800: #fff;
+  --grey-900: #ffffff;
+}
+[dir="rtl"] {
+  font-family:"IBM Plex Sans Arabic", "Cairo", sans-serif;
+  unicode-bidi: embed;
+  direction: rtl;
+}
+[dir="ltr"] {
+  font-family: "IBM Plex Sans Arabic", "Cairo", sans-serif;
+}
+html {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+:root body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+*::-webkit-scrollbar {
+  width: 0.3rem;
+}
+*::-webkit-scrollbar-track {
+  background: #acacac00;
+}
+*::-webkit-scrollbar-thumb {
+  background: #000268;
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1650px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.Toastify__toast {
+  border-radius: 16px;
+}
+/* .Toastify__toast-theme--colored.Toastify__toast--default {
+}
+.Toastify__toast-theme--colored.Toastify__toast--info {
+} */
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: #6ec531;
+}
+/* .Toastify__toast-theme--colored.Toastify__toast--warning {
+} */
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  background-color: #e83e00;
+}
+
+/* Global CSS classes*/
+.page-header {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    & .MuiButton-root {
+      font-size: 1rem;
+    }
+  }
+}
+.container-grey-border {
+  border: 2px solid var(--grey-700);
+  border-radius: 1rem;
+}
+.container-border-padding {
+  border: 2px solid var(--grey-700);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.details-cards-container {
+  &.MuiStack-root {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+.secondary-main-container {
+  margin: 0 auto;
+}

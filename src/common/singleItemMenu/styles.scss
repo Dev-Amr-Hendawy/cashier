@@ -1,0 +1,25 @@
+.item-menu-container {
+  &.MuiMenu-root {
+    border: 1px solid var(--grey-300);
+    padding: 1rem;
+    border-radius: 1rem;
+    & .MuiPaper-root {
+      border-radius: 1rem;
+      width: 10rem;
+    }
+  }
+}
+
+.menu-single-item {
+  &.MuiMenuItem-root {
+    color: var(--grey-800);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    // &:: {
+    //   border-bottom: 1px solid var(--grey-900);
+    // }
+  }
+}

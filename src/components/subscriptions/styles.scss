@@ -1,0 +1,19 @@
+.recent-subscription-title {
+  &.MuiBox-root {
+    .header-more-container {
+      & .MuiTypography-root {
+        color: var(--secondary-main);
+      }
+    }
+  }
+}
+.user-subscription-card {
+  &.MuiStack-root {
+    .icon-label-value-container {
+      & .MuiTypography-root {
+        font-size: 1rem;
+        color: var(--grey-900);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.active-user-switch {
+  &.MuiStack-root {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    & .MuiTypography-root {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    & .MuiFormControlLabel-root {
+      margin: 0;
+      & .MuiSwitch-track {
+        // background-color: var(--background-color);
+        background-color: var(--grey-700);
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.invoice-details-actions {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  & .arrow-right-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+  }
+  & .header.MuiStack-root {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -1rem;
+      width: calc(100% + 4rem);
+      left: -2rem;
+      height: 1px;
+      background-color: var(--grey-700);
+    }
+  }
+  & .summary-container.MuiStack-root {
+    padding: 2rem 0 1rem;
+  }
+  & .summary-title.MuiStack-root {
+    width: calc(100% + 4rem);
+    margin-right: -2rem;
+    padding: 1rem 2rem;
+    background-color: #2d2d2d0d;
+  }
+  & .summary-actions.MuiStack-root {
+    width: calc(100% + 4rem);
+    // margin-right: -2rem;
+    gap: 0.5rem;
+  }
+}

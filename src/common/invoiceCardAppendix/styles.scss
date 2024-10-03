@@ -1,0 +1,18 @@
+.invoice-card-appendix {
+  padding: 1rem;
+  border-top: 1px solid var(--grey-200);
+  &.MuiStack-root {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    & .MuiStack-root {
+      flex-direction: row;
+      align-items: center;
+    }
+    & .MuiTypography-root {
+      font-weight: 700;
+      line-height: 18px;
+      margin-right: 20px;
+    }
+  }
+}

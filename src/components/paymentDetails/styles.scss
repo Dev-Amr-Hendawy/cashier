@@ -1,0 +1,17 @@
+.header-more-payment {
+  & .header-more-container {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+.summary-buttons-container {
+  &.MuiStack-root {
+    flex-direction: row;
+    gap: 1.25rem;
+    margin-top: 1rem;
+    & .MuiButtonBase-root {
+      border-radius: 1rem;
+      padding: 2.5rem;
+    }
+  }
+}

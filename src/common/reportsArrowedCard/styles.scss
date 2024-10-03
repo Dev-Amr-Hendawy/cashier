@@ -1,0 +1,11 @@
+.reports-arrow-container {
+  &.MuiStack-root {
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--grey-700);
+    border-radius: 1rem;
+    flex: 1;
+  }
+}

@@ -1,0 +1,42 @@
+.invoice-details-actions {
+  display: flex;
+  flex-direction: column;
+  padding:0.5rem 0rem 0rem;
+  width: 100%;
+  border-radius: 12px;
+  background-color: var(--background-color);
+  & .arrow-right-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+  }
+  & .header.MuiStack-root {
+    padding:0rem 1rem 0rem;
+    position: relative;
+    border-bottom: none;
+    width: 100%;
+    &::after{
+      content:none; 
+    }
+  }
+  & .summary-container.MuiStack-root {
+    padding:0.5rem 1rem;
+    width: 100%;
+  }
+  & .summary-title.MuiStack-root {
+    // width: calc(100% + 4rem);
+   
+    width: 100%;
+    // flex: 1 1 0;
+    padding: 1rem 2rem;
+    background-color:var(--primary-main);
+    color:var(--grey-0);
+    margin-right:0rem;
+    border-radius:0px 0px 12px 12px;
+  }
+  & .summary-actions.MuiStack-root {
+    // width: 1;
+    margin-right:0rem;
+    gap: 0.5rem;
+  }
+}

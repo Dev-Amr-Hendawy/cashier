@@ -1,0 +1,38 @@
+.invoice-tail-container {
+  &.MuiStack-root {
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    &.invoice-tail-thanks {
+      &.MuiStack-root {
+        flex-direction: row;
+        gap: 4px;
+        align-items: center;
+      }
+    }
+    & .MuiTypography-root {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    & .MuiStack-root {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      & img {
+        width: 43px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+@media print {
+  .invoice-tail-thanks {
+    &.MuiStack-root {
+      gap: 4px;
+      align-items: center;
+      flex-direction: column !important;
+    }
+  }
+}

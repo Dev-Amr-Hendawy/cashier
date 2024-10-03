@@ -1,0 +1,36 @@
+.payment-type-card {
+  &.MuiStack-root {
+    background-color: var(--background-color);
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.75rem;
+    height: 100%;
+    cursor: default;
+  }
+}
+.disabled-payment-card {
+  &.MuiStack-root {
+    border: 2px solid var(--grey-500);
+    color: var(--grey-800);
+    & h6 {
+      color: var(--grey-800);
+    }
+    & svg {
+      color: var(--grey-800);
+    }
+  }
+}
+.active-payment-card {
+  &.MuiStack-root {
+    border: 2px solid var(--secondary-main);
+    color: var(--secondary-main);
+    & h6 {
+      color: var(--secondary-main);
+    }
+    & svg {
+      color: var(--secondary-main);
+    }
+  }
+}

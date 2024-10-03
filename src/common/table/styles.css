@@ -1,0 +1,120 @@
+.table-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+.main-table.MuiDataGrid-root {
+  border: 0;
+  .MuiTypography-root {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: default;
+  }
+
+  /* checkbox style */
+  .MuiDataGrid-cellCheckbox {
+    justify-content: right;
+  }
+  .main-table.MuiDataGrid-root {
+    scrollbar-width: none;
+  }
+  .MuiDataGrid-withBorderColor {
+    border: 0;
+  }
+  /* Rows container */
+  .MuiDataGrid-virtualScroller {
+    overflow: hidden;
+  }
+  .MuiDataGrid-virtualScrollerRenderZone {
+    border: 1px solid var(--grey-700);
+    overflow: hidden;
+  }
+
+  /* Styles for column headers */
+  .MuiDataGrid-columnHeaders {
+    border-radius: 0;
+    border: 1px solid var(--grey-700);
+    color: var(--grey-600);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    
+  }
+ 
+  .MuiDataGrid-columnHeader {
+    /* TODO fix it */
+    padding: 0;
+    font-weight: 700;
+    /* override mui focus styles */
+    &:focus {
+      outline: none;
+    }
+    &:focus-within {
+      outline: none;
+    }
+    .MuiIconButton-root:focus {
+      outline: none;
+    }
+    .MuiDataGrid-iconButtonContainer {
+      visibility: visible;
+    }
+    .MuiDataGrid-columnHeaderTitle {
+      font-weight: 700;
+    }
+  }
+  /* checkbox styles for rows */
+  .MuiCheckbox-root {
+    justify-content: right;
+  }
+  /* Styles for whole row */
+  .MuiDataGrid-row {
+    border-bottom: 1px solid var(--grey-700);
+    padding: 0 1rem;
+    &:hover {
+      background-color: unset;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+      transition: all 0.1s ease-in-out;
+    }
+    /* Styles for every cell */
+    .MuiDataGrid-cell {
+      padding: 0;
+      color: var(--grey-300);
+      font-size: 0.875rem;
+      font-weight: 700;
+      /* override mui focus styles */
+      &:focus {
+        outline: none;
+      }
+      &:focus-within {
+        outline: none;
+      }
+    }
+  }
+  .MuiDataGrid-footerContainer {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .commission-cell * {
+    font-weight: 700;
+  }
+}
+
+/* rtl table row padding */
+.is-rtl {
+  .MuiDataGrid-columnHeaders {
+    padding-right: 2rem;
+  }
+  .MuiDataGrid-virtualScrollerRenderZone {
+    margin-right: 2rem;
+  }
+}
+.invoice-table .MuiDataGrid-columnHeaders,.report .MuiDataGrid-columnHeaders  {
+  background-color: var(--primary-primary50);
+  border: none !important;
+ }

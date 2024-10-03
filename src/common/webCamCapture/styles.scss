@@ -1,0 +1,10 @@
+.web-cam-capture-button {
+  &.MuiButton-root {
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 1rem;
+    width: 15%;
+    margin: auto;
+    background-color: #6ec531;
+  }
+}

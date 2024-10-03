@@ -1,0 +1,18 @@
+.invoice-card-container {
+  gap: 0.5rem;
+  padding: 1rem;
+  & .icon-label-value-container {
+    & .MuiTypography-root {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--grey-900);
+    }
+  }
+  & hr {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    width: 100%;
+    color: var(--grey-500);
+  }
+}

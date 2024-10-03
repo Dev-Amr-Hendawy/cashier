@@ -1,0 +1,23 @@
+.error-container {
+  position: relative; // Needed for the pseudo-element to position correctly
+  height: 100vh;
+  width: 100vw;
+}
+
+.error-component {
+  &.MuiStack-root {
+    margin: auto auto;
+    border: 2px solid #e83e00;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 2rem;
+
+    & .MuiStack-root {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}

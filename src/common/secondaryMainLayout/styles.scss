@@ -1,0 +1,12 @@
+.secondary-main-layout-container {
+    &.MuiStack-root {
+      margin: 0 auto;
+      padding: 2rem 0;
+      & .header-more-container {
+        &.MuiStack-root {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  

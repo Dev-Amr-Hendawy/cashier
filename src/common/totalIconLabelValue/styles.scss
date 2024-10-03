@@ -1,0 +1,24 @@
+.total-icon-label-value-container {
+  color: var(--grey-600);
+  &.MuiStack-root {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  & .MuiStack-root {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+  & .MuiBox-root {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+}
+.has-border {
+  &.MuiStack-root {
+    border: 2px solid var(--grey-500);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}

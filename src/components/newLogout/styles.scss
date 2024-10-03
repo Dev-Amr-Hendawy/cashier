@@ -1,0 +1,15 @@
+.logout-container.MuiButtonBase-root {
+  
+  background: rgba(246, 18, 18, 0.15);
+  border-radius: 20rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  display: flex;
+
+  align-items: center;
+gap: 1rem;
+  cursor: pointer;
+  & .MuiTypography-root {
+    letter-spacing: 1px;
+  }
+}

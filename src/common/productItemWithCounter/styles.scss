@@ -1,0 +1,28 @@
+.product-item-counter.container-border-padding{
+  padding: 0px !important;
+}
+.product-item-counter {
+  &.MuiStack-root {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 0.5rem;
+    padding:0px 1rem !important;
+  }
+}
+
+
+.counter-container {
+  &.MuiStack-root {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+.delete-icon {
+  cursor: "pointer";
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}

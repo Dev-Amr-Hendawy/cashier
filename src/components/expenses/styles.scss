@@ -1,0 +1,45 @@
+.user-details-container {
+  &.MuiStack-root {
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+  }
+  &.MuiTypography-root:first-child {
+    font-size: 1rem;
+  }
+}
+.detail-container {
+  &.MuiStack-root {
+    background-color: var(--background-color);
+  }
+}
+.details-cards-grid {
+  &.MuiGrid-container {
+    padding: 1rem;
+  }
+}
+.expense-attachment-container {
+  &.MuiStack-root {
+    gap: 1.25rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    & .container-border-padding {
+      &.MuiStack-root {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      &.MuiStack-root:hover {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+.expense-card-amount {
+  &.MuiBox-root {
+    & .iconLabel-value-typography {
+      &.MuiTypography-root {
+        color: #232773;
+      }
+    }
+  }
+}

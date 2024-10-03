@@ -1,0 +1,27 @@
+.setting-switch-value {
+  &.MuiButtonBase-root {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    background-color: var(--grey-500);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    border-color: transparent;
+    &:hover {
+      border-color: var(--secondary-main);
+    }
+    & .setting-value-typography {
+      &.MuiTypography-root {
+        color: var(--grey-900);
+        padding: 0 2.5rem;
+      }
+    }
+  }
+}

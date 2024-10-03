@@ -1,0 +1,27 @@
+.page-container {
+  &.MuiStack-root {
+    & .MuiGrid-item {
+      padding-top: 0;
+      margin-top: 15px;
+    }
+    & aside {
+      height: unset;
+    }
+    .header-more-container {
+      &.MuiStack-root {
+        padding: 1rem 1.5rem;
+      }
+    }
+    .report-details-container {
+      &.MuiStack-root {
+        gap: 1rem;
+        padding: 1rem;
+        background-color: var(--background-color);
+      }
+      & .icon-label-value-container .MuiTypography-root {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

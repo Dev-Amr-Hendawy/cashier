@@ -1,0 +1,8 @@
+.modal-description {
+  &.MuiStack-root {
+    & .icon-label-value-container {
+      color: var(--grey-300);
+      font-size: 1rem;
+    }
+  }
+}
